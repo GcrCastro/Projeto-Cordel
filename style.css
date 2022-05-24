@@ -7,25 +7,29 @@
 @import url('https://fonts.googleapis.com/css2? family= Passion+One &família = Sriracha & display=swap');
 body{
     background-color: white;
+    width: 100%;
+    height: 100%;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-    min-width: 100%;
-    min-height: 260px;
+    min-width: 400px;
+    max-height: 400px;
     padding-top: 40px;
     display: block;
+    width: 100%;
 }
 header h1{
-    font-size: 8em;
+    font-size: 7em;
     font-weight: bolder;
 }
 header > p{
     color:white;
     font-size: 1.2em;
     display: block;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 header a{
@@ -42,9 +46,13 @@ header a:hover {
     max-height: 500px;
     font-weight: bolder;
     font-size: 2em;
+    padding-top: 50px;
+    padding-bottom:50px;
+    height: 500px;
+    min-width: 400px;
 }
 #primeira p{
-    padding: 20px;
+    padding: 15px;
 }
 #segunda{
     font-weight: bolder;
@@ -54,14 +62,15 @@ header a:hover {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 80px;
-    padding-bottom:80px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    min-width: 400px;
     height: 500px;
     color: white;
     padding-left: 20px;
 }
 #segunda p{
-    padding: 20px;
+    padding: 15px;
 }
 #um{
     background-color: rgba(0, 0, 0, 0.514);
@@ -72,24 +81,26 @@ header a:hover {
     height: 500px;
     font-weight: bolder;
     font-size: 2em;
-    padding-top: 80px;
-    padding-bottom:80px ;
+    padding-top: 50px;
+    padding-bottom:25px;
     padding-left: 20px;
+    min-width: 400px;
 }
 #terceira p{
-    padding: 20px;
+    padding: 15px;
 }
 #quarta{
     background-color: white;
+    min-width: 400px;
     height: 500px;
     font-weight: bolder;
     font-size: 2em;
-    padding-top: 80px;
-    padding-bottom:80px ;
+    padding-top: 25px;
+    padding-bottom:50px;
     padding-left: 20px; 
 }
 #quarta p{
-    padding: 20px;
+    padding: 15px;
 }
 #quinta{
     font-weight: bolder;
@@ -99,14 +110,15 @@ header a:hover {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 80px;
-    padding-bottom:80px;
+    padding-top: 50px;
+    padding-bottom:50px;
     height: 500px;
+    min-width: 400px;
     color: white;
     padding-left: 20px;
 }
 #quinta p{
-    padding: 20px;
+    padding: 15px;
 }
 #dois{
     background-color: rgba(0, 0, 0, 0.514);
@@ -115,30 +127,33 @@ header a:hover {
 #sexta{
     background-color: white;
     height: 500px;
+    min-width: 400px;
     font-weight: bolder;
     font-size: 2em;
-    padding-top: 80px;
-    padding-bottom:80px ;
+    padding-top: 50px;
+    padding-bottom:25px;
     padding-left: 20px; 
 }
 #sexta p{
-    padding: 20px;
+    padding: 15px;
 }
 #setima{
     background-color: white;
     height: 500px;
+    min-width: 400px;
     font-weight: bolder;
     font-size: 2em;
-    padding-top: 80px;
-    padding-bottom:80px ;
+    padding-top: 25px;
+    padding-bottom:50px;
     padding-left: 20px; 
 }
 #setima p{
-    padding: 20px;
+    padding: 15px;
 }
 footer{
     background-color: black;
     color: white;
+    min-width: 400px;
     text-align: center;
     padding: 10px;
     color:white;
