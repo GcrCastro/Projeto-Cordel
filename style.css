@@ -2,9 +2,18 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: var(--fonte2)
+    width: 100px;
 }
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Passion+One &família = Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1:'Passion One', cursive;
+    --fonte2:'Sriracha', cursive;
+
+
+}
 body{
     background-color: white;
     width: 100%;
@@ -22,8 +31,9 @@ header{
     width: 100%;
 }
 header h1{
+    font-family:var(--fonte1);
     font-variant: small-caps;
-    font-size: 7em;
+    font-size: 6em;
     font-weight: bolder;
 }
 header > p{
